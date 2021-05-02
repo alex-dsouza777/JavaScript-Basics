@@ -235,7 +235,51 @@ tn[0].replaceChild(createdElement2, createdElement);
 
 // Selecting Using Query
 sel = document.querySelector('.container')
-console.log(sel)
+// console.log(sel)
 
 sel = document.querySelectorAll('.container')
-console.log(sel)
+// console.log(sel)
+
+function clicked(){
+    console.log("Button Clicked")
+}
+window.onload = function(){
+     console.log("Document Was Loaded")
+}
+
+// 13. Events in JavaScript
+
+// firstContainer.addEventListener('click', function(){
+//     console.log("Clicked on Container");
+// })
+
+// firstContainer.addEventListener('click', function(){
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> We Have Clicked </b>"
+//     console.log("Clicked on Container");
+// })
+
+// firstContainer.addEventListener('mouseover', function(){
+//     console.log("Mouse on Container");
+// })
+
+// firstContainer.addEventListener('mouseout', function(){
+//     console.log("Mouse Out of Container");
+// })
+
+// firstContainer.addEventListener('mouseup', function(){
+//     console.log("Mouse up when clicked on Container");
+// })
+
+// firstContainer.addEventListener('mousedown', function(){
+//     console.log("Mouse down when clicked on Container");
+// })
+let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+firstContainer.addEventListener('mouseup', function(){
+    document.querySelectorAll('.container')[1].innerHTML = prevHTML;
+    console.log("Mouse up when clicked on Container");
+})
+
+firstContainer.addEventListener('mousedown', function(){
+    document.querySelectorAll('.container')[1].innerHTML = "<b> We Have Clicked </b>"
+    console.log("Mouse down when clicked on Container");
+})
