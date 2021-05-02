@@ -307,5 +307,16 @@ login = ()=>{
 /*
 localStorage.setItem('name', 'root')
 localStorage.clear()
+localStorage
 localStorage.getItem('name')
+localStorage.removeItem('name')
 */
+
+// 16. About JSON
+obj = {name: "Root", length: 1, a: {this: "that"}}
+jso = JSON.stringify(obj);
+//console.log(typeof jso);
+//console.log(jso);
+
+parsed = JSON.parse(`{"name":"Root","length":1,"a":{"this":"that"}}`)
+//console.log(parsed);
