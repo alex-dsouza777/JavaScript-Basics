@@ -179,15 +179,15 @@ let j = 0;
 
 // 9. Array Methods in JavaScript.
 let myArr = ["Fan", "Camera", 34, null, true];
-//console.log(myArr.length);
-//myArr.pop(); //Will remove last element from the given Array
-//myArr.push('Root') //Will Add an element at the end in the given Array
-//myArr.shift() //Removes the first element from the Array
-// myArr.unshift("Root")  // Add element at the beginning Array
-// const newLen = myArr.unshift("Root")
+// console.log(myArr.length);
+myArr.pop(); //Will remove last element from the given Array
+myArr.push('Root') //Will Add an element at the end in the given Array
+myArr.shift() //Removes the first element from the Array
+myArr.unshift("Root")  // Add element at the beginning Array
+const newLen = myArr.unshift("Root")
 // console.log(newLen);
-//myArr.toString() 
-//console.log(myArr);
+myArr.toString() 
+// console.log(myArr);
 
 // 10. String Methods in JavaScript.
 let myString = "Root is a computer";
@@ -224,7 +224,7 @@ elemClass[0].classList.add("text-success");
 // console.log(elemClass[0].innerText);
 
 tn = document.getElementsByTagName('div')
-console.log(tn)
+// console.log(tn)
 createdElement = document.createElement('p')
 createdElement.innerText = "This is a para"
 tn[0].appendChild(createdElement);
@@ -241,45 +241,45 @@ sel = document.querySelectorAll('.container')
 // console.log(sel)
 
 function clicked(){
-    console.log("Button Clicked")
+    // console.log("Button Clicked")
 }
 window.onload = function(){
-     console.log("Document Was Loaded")
+    //  console.log("Document Was Loaded")
 }
 
 // 13. Events in JavaScript
 
-// firstContainer.addEventListener('click', function(){
-//     console.log("Clicked on Container");
-// })
+firstContainer.addEventListener('click', function(){
+    // console.log("Clicked on Container");
+})
 
-// firstContainer.addEventListener('click', function(){
-//     document.querySelectorAll('.container')[1].innerHTML = "<b> We Have Clicked </b>"
-//     console.log("Clicked on Container");
-// })
+firstContainer.addEventListener('click', function(){
+    document.querySelectorAll('.container')[1].innerHTML = "<b> We Have Clicked </b>"
+    // console.log("Clicked on Container");
+})
 
-// firstContainer.addEventListener('mouseover', function(){
-//     console.log("Mouse on Container");
-// })
+firstContainer.addEventListener('mouseover', function(){
+    // console.log("Mouse on Container");
+})
 
-// firstContainer.addEventListener('mouseout', function(){
-//     console.log("Mouse Out of Container");
-// })
+firstContainer.addEventListener('mouseout', function(){
+    // console.log("Mouse Out of Container");
+})
 
-// firstContainer.addEventListener('mouseup', function(){
-//     console.log("Mouse up when clicked on Container");
-// })
+firstContainer.addEventListener('mouseup', function(){
+    // console.log("Mouse up when clicked on Container");
+})
 
-// firstContainer.addEventListener('mousedown', function(){
-//     console.log("Mouse down when clicked on Container");
-// })
+firstContainer.addEventListener('mousedown', function(){
+    // console.log("Mouse down when clicked on Container");
+})
 let prevHTML = document.querySelectorAll('.container')[1].innerHTML;
 firstContainer.addEventListener('mouseup', function(){
     document.querySelectorAll('.container')[1].innerHTML = prevHTML;
-    console.log("Mouse up when clicked on Container");
+    // console.log("Mouse up when clicked on Container");
 })
 
 firstContainer.addEventListener('mousedown', function(){
     document.querySelectorAll('.container')[1].innerHTML = "<b> We Have Clicked </b>"
-    console.log("Mouse down when clicked on Container");
+    // console.log("Mouse down when clicked on Container");
 })
