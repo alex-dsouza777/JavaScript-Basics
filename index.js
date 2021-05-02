@@ -231,3 +231,4 @@ tn[0].appendChild(createdElement);
 createdElement2 = document.createElement('b')
 createdElement2.innerText = "This is bold"
 tn[0].replaceChild(createdElement2, createdElement);
+//removeChild(element); --> removes an element 
