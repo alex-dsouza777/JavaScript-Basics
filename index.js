@@ -297,8 +297,15 @@ sum = (a, b)=>{
 // 14. SetTimeout and SetInterval
 login = ()=>{
     document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval fired </b>"
-    console.log("Logged In")
+    //console.log("Logged In")
 }
 // setTimeout(login, 2000);
 
-clr = setInterval(login, 5000); // --> // Use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
+//clr = setInterval(login, 5000); // --> // Use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
+
+// 15. JavaScript LocalStorage
+/*
+localStorage.setItem('name', 'root')
+localStorage.clear()
+localStorage.getItem('name')
+*/
