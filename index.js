@@ -167,15 +167,15 @@ let j = 0;
 // }while(j < arr.length);
 
 // 8. Break And Continue in JavaScript
-// var arr = [1, 2, 3, 4, 5, 6, 7, 8]
-// //console.log(arr);
-// for(var i = 0; i < arr.length; i++){
-//     if(i == 2){
-//         //break;
-//         continue;
-//     }
-//     //console.log(arr[i]);
-// }
+var arr = [1, 2, 3, 4, 5, 6, 7, 8]
+//console.log(arr);
+for(var i = 0; i < arr.length; i++){
+    if(i == 2){
+        //break;
+        continue;
+    }
+    //console.log(arr[i]);
+}
 
 // 9. Array Methods in JavaScript.
 let myArr = ["Fan", "Camera", 34, null, true];
@@ -283,3 +283,22 @@ firstContainer.addEventListener('mousedown', function(){
     document.querySelectorAll('.container')[1].innerHTML = "<b> We Have Clicked </b>"
     // console.log("Mouse down when clicked on Container");
 })
+
+
+//Arrow Function
+function summ(a, b){
+    return a + b;
+}
+
+sum = (a, b)=>{
+    return a + b;
+}
+
+// 14. SetTimeout and SetInterval
+login = ()=>{
+    document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval fired </b>"
+    console.log("Logged In")
+}
+// setTimeout(login, 2000);
+
+clr = setInterval(login, 5000); // --> // Use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
