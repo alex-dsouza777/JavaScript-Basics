@@ -234,3 +234,8 @@ tn[0].replaceChild(createdElement2, createdElement);
 //removeChild(element); --> removes an element 
 
 // Selecting Using Query
+sel = document.querySelector('.container')
+console.log(sel)
+
+sel = document.querySelectorAll('.container')
+console.log(sel)
