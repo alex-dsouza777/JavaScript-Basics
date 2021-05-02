@@ -211,12 +211,20 @@ let myDate = new Date();
 
 // 12. DOM Manipulation
 let elem = document.getElementById('click');
-console.log(elem);
+// console.log(elem);
 
 let elemClass = document.getElementsByClassName('container');
-console.log(elemClass);
+// console.log(elemClass);
 //elemClass[0].style.background = "yellow";
 elemClass[0].classList.add("bg-primary");
 elemClass[0].classList.add("text-success");
-console.log(elem.innerHTML)
-console.log(elem.innerText)
+// console.log(elem.innerHTML);
+// console.log(elem.innerText);
+// console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerText);
+
+tn = document.getElementsByTagName('div')
+console.log(tn)
+createdElement = document.createElement('p')
+createdElement.innerText = "This is a para"
+tn[0].appendChild(createdElement);
