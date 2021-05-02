@@ -320,3 +320,8 @@ jso = JSON.stringify(obj);
 
 parsed = JSON.parse(`{"name":"Root","length":1,"a":{"this":"that"}}`)
 //console.log(parsed);
+
+
+// Template Literals - Backticks
+a =35;
+console.log(`This is my ${a}`)
