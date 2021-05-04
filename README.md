@@ -1,7 +1,7 @@
-# JavaScript-Tutorial
+# JavaScript-Tutorial.
 This Repository contains basic concepts of JavaScript. Along with two mini Projects.
 
-## For Tutorial check index.js file
+## For Tutorial.
 Do check [index.js](index.js).
 
 ## To run the code.
@@ -30,5 +30,5 @@ Open [index.html](index.html) File in your browser. Open your console log and un
 Project – 1 (JavaScript  Clock)
 Project – 2 (An Amazing JavaScript To-do List)
 ```
-## Contributing
+## Contributing.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
