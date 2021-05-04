@@ -2,8 +2,31 @@
 This Repository contains basic concepts of JavaScript. Along with two mini Projects.
 
 ## For Tutorial check index.js file
-index.js [index.js](index.js) to install foobar.
+[index.js](index.js).
 
-```bash
-pip install foobar
+## To run the code.
+Open [index.html](index.html)File in your browser. Open your console log and uncomment lines from [index.js](index.js).
+
+## Topics Covered in this Repository.
+```script
+1 – JavaScript Console API
+2 – Different ways to write JavaScript 
+3 – Variables in JavaScript 
+4 – Data Types in JavaScript 
+5 – Operators in JavaScript 
+6 – Functions in JavaScript 
+7 – Conditional Statements in JavaScript 
+8 – Loops in JavaScript
+9 – Break and Continue Statements
+10 – Array Methods
+11 - String Methods
+12 – Dates in JS
+13 – JavaScript DOM Manipulation
+14 – JavaScript Events
+15 – JavaScript  SetTimeout and SetInterval
+16 – Local Storage in JavaScript 
+17 – About JSON 
+ 
+Project – 1 (JavaScript  Clock)
+Project – 2 (An Amazing JavaScript To-do List)
 ```
