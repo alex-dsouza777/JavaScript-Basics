@@ -5,7 +5,7 @@ This Repository contains basic concepts of JavaScript. Along with two mini Proje
 Do check [index.js](index.js).
 
 ## To run the code.
-Open [index.html](index.html) File in your browser. Open your console log and uncomment lines from [index.js](index.js) File.
+Open [index.html](index.html) File in your browser. Open your console log in your browser and uncomment lines from [index.js](index.js) File.
 
 ## Topics Covered in this Repository.
 ```script
