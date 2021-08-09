@@ -8,4 +8,7 @@ a = window.innerHeight;
 a = window.innerWidth;
 a = scrollX;
 a = scrollY;
+a = location;
+a = location.toString();
 console.log(a);
+ 
